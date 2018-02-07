@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="ListBD">
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:orientation="horizontal"
+            android:padding="10px"
+            app:eb_base_height='@{"height"}'
+            app:eb_base_padding='@{"width"}'>
+
+            <Button
+                android:id="@+id/btn_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10px"
+                android:layout_weight="1"
+                android:background="#2e2e2e"
+                android:text="ListView"
+                android:textColor="#ffffff"
+                android:textSize="20px"
+                app:eb_base_marginRight='@{"width"}'
+                app:eb_base_textSize='@{"width"}' />
+
+
+            <Button
+                android:id="@+id/btn_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#2e2e2e"
+                android:text="RecyclerView"
+                android:textColor="#ffffff"
+                android:textSize="20px"
+                app:eb_base_textSize='@{"width"}' />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3ab" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fab"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+</layout>

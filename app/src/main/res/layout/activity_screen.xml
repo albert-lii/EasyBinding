@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="ScreenBD">
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="适配前"
+            android:textColor="#2e2e2e"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:background="#365"
+            android:gravity="center"
+            android:text="200px"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="适配后"
+            android:textColor="#2e2e2e"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:background="#365"
+            android:gravity="center"
+            android:text="200px"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            app:eb_base_height='@{"height"}'
+            app:eb_base_textSize='@{"width"}'
+            app:eb_base_width='@{"width"}' />
+    </LinearLayout>
+</layout>
