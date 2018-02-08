@@ -20,9 +20,4 @@ public class EasyConversion {
         int color = Color.parseColor(colorStr);
         return new ColorDrawable(color);
     }
-
-    @BindingConversion
-    public static ColorDrawable convertColorToDrawable(int color) {
-        return new ColorDrawable(color);
-    }
 }

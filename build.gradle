@@ -36,7 +36,7 @@ ext {
     libSupportVersion = "25.3.1"
 
     libScreenVersionCode = 1
-    libScreenVersionName = "1.0.0"
+    libScreenVersionName = "1.0.1"
     libViewVersionCode = 1
     libViewVersionName = "1.0.0"
 }

@@ -16,8 +16,8 @@
             android:layout_height="100px"
             android:orientation="horizontal"
             android:padding="10px"
-            app:eb_base_height='@{"height"}'
-            app:eb_base_padding='@{"width"}'>
+         >   app:eb_base_height='@{"height"}'
+            app:eb_base_padding='@{"width"}'
 
             <Button
                 android:id="@+id/btn_list"
@@ -29,8 +29,9 @@
                 android:text="ListView"
                 android:textColor="#ffffff"
                 android:textSize="20px"
-                app:eb_base_marginRight='@{"width"}'
-                app:eb_base_textSize='@{"width"}' />
+               />
+            app:eb_base_marginRight='@{"width"}'
+            app:eb_base_textSize='@{"width"}'
 
 
             <Button
@@ -42,7 +43,8 @@
                 android:text="RecyclerView"
                 android:textColor="#ffffff"
                 android:textSize="20px"
-                app:eb_base_textSize='@{"width"}' />
+                />
+            app:eb_base_textSize='@{"width"}'
         </LinearLayout>
 
         <FrameLayout
