@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_screen:
-//                navigateToPage(ScreenActivity.class);
+                navigateToPage(ScreenActivity.class);
                 break;
             case R.id.btn_list:
-//                navigateToPage(ListActivity.class);
+                navigateToPage(ListActivity.class);
                 break;
         }
     }

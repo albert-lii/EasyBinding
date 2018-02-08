@@ -39,9 +39,4 @@ ext {
     libScreenVersionName = "1.0.0"
     libViewVersionCode = 1
     libViewVersionName = "1.0.0"
-
-    bintrayRepoName = "databinding"
-    bintrayName = "albertlii"
-    bintrayGroupId = "com.liyi.easybinding"
-    bintrayLicences = ['Apache-2.0']
 }
