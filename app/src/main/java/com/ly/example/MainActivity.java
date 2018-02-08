@@ -8,6 +8,9 @@ import android.view.View;
 
 import com.ly.example.databinding.MainBD;
 
+/**
+ * 因为DataBinding注解的原因，导致项目上传有点问题，如要运行demo，请解开其他页面以及xml的注释，在运行
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private MainBD mBinding;
 
@@ -27,10 +30,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_screen:
-                navigateToPage(ScreenActivity.class);
+//                navigateToPage(ScreenActivity.class);
                 break;
             case R.id.btn_list:
-                navigateToPage(ListActivity.class);
+//                navigateToPage(ListActivity.class);
                 break;
         }
     }
