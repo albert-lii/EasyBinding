@@ -1,0 +1,2 @@
+# EasyBinding
+DataBinding的巧妙使用，包括基于DataBinding实现的屏幕适配大法以及与ListView、RecyclerView的结合使用，让你的代码更简洁！
