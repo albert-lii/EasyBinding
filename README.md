@@ -10,7 +10,7 @@ EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy
 
 ## 文档
 - [easy-screen（屏幕适配）][easy-screen]
-- [easy-view（与ListView、GridView、RecyclerView的结合使用）][easy-screen]
+- [easy-view（与ListView、GridView、RecyclerView的结合使用）][easy-view]
 
 ## 添加依赖
 - Step 1：  
@@ -63,3 +63,4 @@ limitations under the License.
 [statussvg]:https://img.shields.io/librariesio/github/phoenixframework/phoenix.svg
 
 [easy-screen]:https://github.com/albert-lii/EasyBinding/blob/master/easy-screen/README.md
+[easy-view]:https://github.com/albert-lii/EasyBinding/blob/master/easy-view/README.md
