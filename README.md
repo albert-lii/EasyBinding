@@ -35,7 +35,7 @@ dependencies {
 **注意！注意！注意！重要的事情说三遍！如果在使用gradle依赖后，一直不能找到easy-screen项目中的自定义属性，报错bind error，推荐将esay-screen中的文件拷贝到下项目中，或者导入easy-screen包则可解决！**
 
 ## 赞赏
-如果你感觉 `EasyBinding` 帮助到了你，可以点右上角 "Star" 支持一下 谢谢！ ^_^
+如果你感觉 `EasyBinding` 帮助到了你，可以点右上角 "Star" 支持一下 谢谢！:blush:
 
 ## LICENSE
 Copyright 2018 liyi
