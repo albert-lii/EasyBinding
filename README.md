@@ -9,12 +9,12 @@ EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy
 - `easy-screen`基于DataBinding的 @BindingAdapter功能实现，可任意修改扩展
 
 ## 文档
-- [easy-screen（屏幕适配][easy-screen]
+- [easy-screen（屏幕适配）][easy-screen]
 - [easy-view（与ListView、GridView、RecyclerView的结合使用）][easy-screen]
 
 ## 添加依赖
 - Step 1：  
-```
+```Java
 在项目工程的build.gradle中添加以下代码
 
  allprojects {
@@ -25,7 +25,7 @@ EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy
  }
 ```
 - Step 2：  
-```
+```Java
 dependencies {
           // 不需要全部添加，使用哪个，添加哪个依赖
           compile 'com.github.albert-lii.EasyBinding:easy-screen:1.0.1'
