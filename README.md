@@ -8,7 +8,7 @@ EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy
 - `easy-screen`与`easy-view`都只有少数几个文件，非常轻便
 - `easy-screen`基于DataBinding的 @BindingAdapter功能实现，可任意修改扩展
 
-## 目录
+## 文档
 - easy-screen（屏幕适配）
 - easy-view（与ListView、GridView、RecyclerView的结合使用）
 
