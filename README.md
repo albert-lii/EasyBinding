@@ -1,5 +1,5 @@
 # EasyBinding
-[![jitpack][jitpacksvg]][jitpack] [![esay-screen][screensvg]][screen] [![easy-view][viewsvg]][view] ![apisvg] [![license][licensesvg]][license] ![statussvg]
+[![jitpack][jitpacksvg]][jitpack] ![release][releasesvg] ![apisvg] [![license][licensesvg]][license] ![statussvg]
 
 ## About
 EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy-screen`和`easy-view`两个库。其中`easy-screen`巧妙的使用DataBinding的特性，只需三个文件，轻松实现Android屏幕精准适配；`easy-view`是将ListView、GridView、RecyclerView与DataBinding结合使用的库，让你的代码更简洁！
@@ -9,8 +9,8 @@ EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy
 - `easy-screen`基于DataBinding的 @BindingAdapter功能实现，可任意修改扩展
 
 ## 文档
-- easy-screen（屏幕适配）
-- easy-view（与ListView、GridView、RecyclerView的结合使用）
+- [easy-screen（屏幕适配][easy-screen]
+- [easy-view（与ListView、GridView、RecyclerView的结合使用）][easy-screen]
 
 ## 添加依赖
 - Step 1：  
@@ -56,11 +56,10 @@ limitations under the License.
 
 [jitpacksvg]:https://jitpack.io/v/albert-lii/EasyBinding.svg
 [jitpack]:https://jitpack.io/#albert-lii/EasyBinding
-[screensvg]: https://img.shields.io/badge/easy_screen-v1.0.1-0f80c1.svg
-[screen]: https://github.com/albert-lii/EasyBinding/tree/master/easy-screen
-[viewsvg]: https://img.shields.io/badge/easy_view-v1.0.1-0f80c1.svg
-[view]:https://github.com/albert-lii/EasyBinding/tree/master/easy-view
+[releasesvg]: https://img.shields.io/badge/release-v1.0.1-0f80c1.svg
 [apisvg]: https://img.shields.io/badge/API-9+-brightgreen.svg
 [licensesvg]: https://img.shields.io/badge/License-Apache--2.0-0f80c1.svg
 [license]:http://www.apache.org/licenses/LICENSE-2.0
 [statussvg]:https://img.shields.io/librariesio/github/phoenixframework/phoenix.svg
+
+[easy-screen]:https://github.com/albert-lii/EasyBinding/blob/master/easy-screen/README.md
