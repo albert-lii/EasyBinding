@@ -35,10 +35,10 @@ dependencies {
 - Step 3：  
 ```Java
 在项目的gradle（不是工程gradle）的android{...}中添加
-    // 使用dataBinding
-    dataBinding {
-        enabled = true
-    }
+  // 使用dataBinding
+  dataBinding {
+      enabled = true
+  }
 ```
 **注意！注意！注意！重要的事情说三遍！如果在使用gradle依赖后，一直不能找到easy-screen项目中的自定义属性，报错bind error，推荐将esay-screen中的文件拷贝到下项目中，或者导入easy-screen包则可解决！**
 
