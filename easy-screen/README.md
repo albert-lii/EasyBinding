@@ -7,6 +7,7 @@
 - [注意点](#注意点)
 - [属性详解](#属性详解)
 - [使用方法](#使用方法)
+- [预览问题](#预览问题)
 
 ## 原理 （必看！必看！必看）
 本库原理与鸿洋大神的[AutoLayout][autolayout]一致，根据UI给出的设计稿的尺寸，将设计稿的尺寸与我们实际的手机的宽高尺寸进行处理换算，获取换算比例ratio，例如设计稿尺寸为320x480，我们手机的宽高尺寸为1080x1920,则获取换算比例`widthRatio=(1080/320)`，`heightRatio=(1920/480)`。我们在xml中填写尺寸时，单位都为`px`,直接填写设计稿中的px尺寸值，在程序编译时，会将`宽度 x widthRatio`,`高度 x heightRatio`，以此将我们绘制的view等比缩放，适配屏幕，做到几乎和设计图完全一致，不必再写xml时自己计算。  
@@ -65,13 +66,13 @@
 - eb_layout_minWidth、eb_layout_minHeight、eb_text_maxWidth、eb_text_maxHeight、eb_grid_hspace、eb_grid_vspace、eb_grid_columnWidth这几个属性，在sdk>=16时,可以使用他们的原生属性即android:minWidth=""、android:maxHeight=""...，如果设置了这些自定义属性，则以自定义属性为准；当sdk<16时，使用自定义属性
 
 ## 使用方法
-1. 在Application种创建设计稿
+1. 在Application中（或者Activity中）创建设计稿
 
 ```Java
   EasyScreen.createDesign(context, height, width);
 ```
 
-2. 对于要适配的属性，在xml种添加参考标准（注：所有要适配的属性，需使用px作为单位）
+2. 对于要适配的属性，在xml种添加参考标准（注：所有要适配的属性，使用px作为单位，直接抄下设计稿上的px尺寸即可）
 例：
 ```Java
  <TextView
@@ -92,6 +93,8 @@
       app:eb_base_width='@{"width"}'    ===> 以屏宽作为参考标准
       app:eb_base_textSize='@{"width"}' ===> 以屏宽作为参考标准
 ```
+## 预览问题
+选择与创建的设计稿尺寸一致或者相近的模拟器预览即可（因为有的公司给的是IOS设计稿，没有安卓版，只能选相近的，这种情况下预览会有些偏差，不必在意，真实显示绝对与设计稿一致）
 
 [autolayout]:http://blog.csdn.net/lmj623565791/article/details/49990941
 
