@@ -28,8 +28,8 @@ EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy
 ```Java
 dependencies {
     // 不需要全部添加，使用哪个，添加哪个依赖
-    compile 'com.github.albert-lii.EasyBinding:easy-screen:1.0.1'
-    compile 'com.github.albert-lii.EasyBinding:easy-view:1.0.1'
+    compile 'com.github.albert-lii.EasyBinding:easy-screen:1.0.2'
+    compile 'com.github.albert-lii.EasyBinding:easy-view:1.0.2'
 }
 ```
 - Step 3：  
