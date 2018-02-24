@@ -1,4 +1,4 @@
-package com.ly.easy;
+package com.ly.screen;
 
 /**
  * 属性适配的参考标准

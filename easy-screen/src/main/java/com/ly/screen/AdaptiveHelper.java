@@ -1,4 +1,4 @@
-package com.ly.easy;
+package com.ly.screen;
 
 import android.content.Context;
 import android.graphics.Point;

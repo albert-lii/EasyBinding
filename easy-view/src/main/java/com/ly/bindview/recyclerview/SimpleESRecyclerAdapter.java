@@ -1,4 +1,4 @@
-package com.ly.easy.recyclerview;
+package com.ly.bindview.recyclerview;
 
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;

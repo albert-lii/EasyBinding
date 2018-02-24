@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 
-import com.ly.easy.EasyScreen;
+import com.ly.screen.EasyScreen;
 import com.ly.example.databinding.ListBD;
 
 import java.util.ArrayList;

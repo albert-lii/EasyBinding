@@ -35,8 +35,8 @@ ext {
     libTargetSdkVersion = 25
     libSupportVersion = "25.3.1"
 
-    libScreenVersionCode = 1
-    libScreenVersionName = "1.0.1"
-    libViewVersionCode = 1
-    libViewVersionName = "1.0.0"
+    libScreenVersionCode = 3
+    libScreenVersionName = "1.0.2"
+    libViewVersionCode = 3
+    libViewVersionName = "1.0.2"
 }

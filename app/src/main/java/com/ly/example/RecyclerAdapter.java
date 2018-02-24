@@ -1,7 +1,7 @@
 package com.ly.example;
 
-import com.ly.easy.recyclerview.EasyRecyclerViewHolder;
-import com.ly.easy.recyclerview.SimpleESRecyclerAdapter;
+import com.ly.bindview.recyclerview.EasyRecyclerViewHolder;
+import com.ly.bindview.recyclerview.SimpleESRecyclerAdapter;
 import com.ly.example.databinding.ListItemBD;
 
 import java.util.ArrayList;

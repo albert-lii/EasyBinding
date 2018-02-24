@@ -1,4 +1,4 @@
-package com.ly.easy.abslistview;
+package com.ly.bindview.abslistview;
 
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;

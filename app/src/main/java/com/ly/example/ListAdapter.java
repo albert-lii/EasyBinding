@@ -3,8 +3,8 @@ package com.ly.example;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.ly.easy.abslistview.EasyViewHolder;
-import com.ly.easy.abslistview.SimpleESBaseAdpter;
+import com.ly.bindview.abslistview.EasyViewHolder;
+import com.ly.bindview.abslistview.SimpleESBaseAdpter;
 import com.ly.example.databinding.ListItemBD;
 
 import java.util.ArrayList;
