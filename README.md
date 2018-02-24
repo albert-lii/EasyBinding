@@ -45,8 +45,7 @@ dependencies {
 加载布局时使用DataBinding加载布局，例如在Activity中加载布局，使用DataBindingUtil.setContentView()代替setContentView()
 ```
 **注意！注意！注意！重要的事情说三遍！**
-- 如果在使用gradle依赖后，一直不能找到easy-screen项目中的自定义属性，报错bind error，推荐将esay-screen中的文件拷贝到项目中，或者导入easy-screen包则可解决！
-- 如果同时添加两个库的依赖，一直报错`Unable to merge dex`，则放弃gradle依赖，将两个库导入项目中即可（因为两个库的包名是一样的，所以会报有重复包的错误）**
+- 如果在使用gradle依赖后，一直不能找到easy-screen项目中的自定义属性，报错bind error，推荐将esay-screen中的文件拷贝到项目中（强烈推荐，更加方便项目扩展），或者导入easy-screen包则可解决！
 
 ## 赞赏
 如果你感觉 `EasyBinding` 帮助到了你，可以点右上角 "Star" 支持一下 谢谢！:blush:
@@ -70,7 +69,7 @@ limitations under the License.
 
 [jitpacksvg]:https://jitpack.io/v/albert-lii/EasyBinding.svg
 [jitpack]:https://jitpack.io/#albert-lii/EasyBinding
-[releasesvg]: https://img.shields.io/badge/release-v1.0.1-0f80c1.svg
+[releasesvg]: https://img.shields.io/badge/release-v1.0.2-0f80c1.svg
 [apisvg]: https://img.shields.io/badge/API-9+-brightgreen.svg
 [licensesvg]: https://img.shields.io/badge/License-Apache--2.0-0f80c1.svg
 [license]:http://www.apache.org/licenses/LICENSE-2.0
