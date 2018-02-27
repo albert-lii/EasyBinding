@@ -42,7 +42,7 @@ dependencies {
 ```
 ## easy-screen使用时，注意！注意！注意！（本人强烈推荐直接将easy-screen中的文件直接拷贝到项目中，更加方便扩展）
 - 如果在使用gradle依赖后，一直不能找到easy-screen项目中的自定义属性，报错binding error，推荐将esay-screen中的文件拷贝到项目中（强烈推荐，更加方便项目扩展），或者导入easy-screen包则可解决！
-- 加载布局时使用DataBinding加载布局，例如在Activity中加载布局，使用DataBindingUtil.setContentView()代替setContentView()
+- **加载布局时使用DataBinding加载布局，例如在Activity中加载布局，使用DataBindingUtil.setContentView()代替setContentView()，在ListView的适配器中，自定义布局中等等，凡是使用到适配的，都要用DataBinding加载布局**
 - xml布局文件要遵守DataBinding的规则
 
 ## 赞赏
