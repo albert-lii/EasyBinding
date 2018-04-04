@@ -9,8 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/easy-screen" />
-            <option value="$PROJECT_DIR$/easy-view" />
+            <option value="$PROJECT_DIR$/bind-view" />
+            <option value="$PROJECT_DIR$/fit-screen" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

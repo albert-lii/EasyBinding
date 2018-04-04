@@ -35,6 +35,6 @@ dependencies {
     implementation 'com.android.support:support-v4:'+ rootProject.ext.libSupportVersion
 //    implementation 'com.github.albert-lii.EasyBinding:easy-screen:1.0.1'
 //    implementation 'com.github.albert-lii.EasyBinding:easy-view:1.0.1'
-    implementation project(':easy-screen')
-    implementation project(':easy-view')
+    implementation project(':bind-view')
+    implementation project(':fit-screen')
 }

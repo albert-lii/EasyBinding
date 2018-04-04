@@ -46,8 +46,8 @@
             android:text="200px"
             android:textColor="#ffffff"
             android:textSize="20sp"
-            app:eb_base_height='@{"height"}'
-            app:eb_base_textSize='@{"width"}'
-            app:eb_base_width='@{"width"}' />
+            app:fit_base_height='@{"height"}'
+            app:fit_base_textSize='@{"width"}'
+            app:fit_base_width='@{"width"}' />
     </LinearLayout>
 </layout>

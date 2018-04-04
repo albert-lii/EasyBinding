@@ -20,7 +20,7 @@
             android:text="@{text}"
             android:textColor="#2e2e2e"
             android:textSize="30px"
-            app:eb_base_height='@{"height"}'
-            app:eb_base_textSize='@{"height"}' />
+            app:fit_base_height='@{"height"}'
+            app:fit_base_textSize='@{"height"}' />
     </FrameLayout>
 </layout>

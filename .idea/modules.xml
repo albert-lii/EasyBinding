@@ -4,8 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EasyBinding.iml" filepath="$PROJECT_DIR$/EasyBinding.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/easy-screen/easy-screen.iml" filepath="$PROJECT_DIR$/easy-screen/easy-screen.iml" />
-      <module fileurl="file://$PROJECT_DIR$/easy-view/easy-view.iml" filepath="$PROJECT_DIR$/easy-view/easy-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bind-view/bind-view.iml" filepath="$PROJECT_DIR$/bind-view/bind-view.iml" />
+      <module fileurl="file://E:\Android-WorkSpace\EasyBinding\easy-screen\easy-screen.iml" filepath="E:\Android-WorkSpace\EasyBinding\easy-screen\easy-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fit-screen/fit-screen.iml" filepath="$PROJECT_DIR$/fit-screen/fit-screen.iml" />
     </modules>
   </component>
 </project>

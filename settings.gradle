@@ -1,1 +1,1 @@
-include ':app', ':easy-screen', ':easy-view'
+include ':app', ':fit-screen', ':bind-view'
