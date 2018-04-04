@@ -13,7 +13,7 @@ def bintrayName = "albertlii"
 def bintrayRepoName = "android-maven"
 def bintrayGroupId = "com.liyi.binding"
 def bintrayArtifactId = "fit-screen"
-def bintrayDesc = "sutils"
+def bintrayDesc = "fit-screen"
 def bintrayWebSite = "https://github.com/albert-lii/EasyBinding"
 def bintrayLicences = ['Apache-2.0']
 
