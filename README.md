@@ -67,7 +67,7 @@ limitations under the License.
 
 [jitpacksvg]:https://jitpack.io/v/albert-lii/EasyBinding.svg
 [jitpack]:https://jitpack.io/#albert-lii/EasyBinding
-[releasesvg]: https://img.shields.io/badge/release-v1.0.3-0f80c1.svg
+[releasesvg]: https://img.shields.io/badge/release-1.0.3-0f80c1.svg
 [apisvg]: https://img.shields.io/badge/API-9+-brightgreen.svg
 [licensesvg]: https://img.shields.io/badge/License-Apache--2.0-0f80c1.svg
 [license]:http://www.apache.org/licenses/LICENSE-2.0
