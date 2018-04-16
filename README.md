@@ -73,5 +73,5 @@ limitations under the License.
 [license]:http://www.apache.org/licenses/LICENSE-2.0
 [statussvg]:https://img.shields.io/librariesio/github/phoenixframework/phoenix.svg
 
-[easy-screen]:https://github.com/albert-lii/EasyBinding/blob/master/easy-screen/README.md
-[easy-view]:https://github.com/albert-lii/EasyBinding/blob/master/easy-view/README.md
+[fit-screen]:https://github.com/albert-lii/EasyBinding/blob/master/fit-screen/README.md
+[bind-view]:https://github.com/albert-lii/EasyBinding/blob/master/bind-view/README.md
