@@ -1,7 +1,10 @@
 # EasyBinding
 
 ## 关于
-EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy-screen`和`easy-view`两个库。其中`easy-screen`巧妙的使用DataBinding的特性，只需三个文件，轻松实现Android屏幕精准适配；`easy-view`是将ListView、GridView、RecyclerView与DataBinding结合使用的库，让你的代码更简洁！
+EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`fit-screen`和`bind-view`两个库。其中`fit-screen`巧妙的使用DataBinding的特性，只需三个文件，轻松实现Android屏幕精准适配；`fit-view`是将ListView、GridView、RecyclerView与DataBinding结合使用的库，让你的代码更简洁！
+
+## 推荐
+[FitScreen][FitScreen] autolayout适配改进版
 
 ## 特点
 - `fit-screen`与`bind-view`都只有少数几个文件，非常轻便
@@ -65,5 +68,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
+[FitScreen]:https://github.com/albert-lii/FitScreen 
 [fit-screen]:https://github.com/albert-lii/EasyBinding/blob/master/fit-screen/README.md
 [bind-view]:https://github.com/albert-lii/EasyBinding/blob/master/bind-view/README.md
