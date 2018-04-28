@@ -1,5 +1,4 @@
 # EasyBinding
-[![jitpack][jitpacksvg]][jitpack] ![release][releasesvg] ![apisvg] [![license][licensesvg]][license] ![statussvg]
 
 ## 关于
 EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`easy-screen`和`easy-view`两个库。其中`easy-screen`巧妙的使用DataBinding的特性，只需三个文件，轻松实现Android屏幕精准适配；`easy-view`是将ListView、GridView、RecyclerView与DataBinding结合使用的库，让你的代码更简洁！
