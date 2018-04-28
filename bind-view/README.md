@@ -15,13 +15,13 @@ DataBinding与ListView、GridView、RecyclerView的结合使用，使用更简�
    - 单种item，直接使用SimpleBindBaseAdpter代替BaseAdapter
    - 多种item，仍然使用BaseAdapter，使用BindViewHolder作为ViewHolder
 ### 2、recyclerview 
-   - 单种item，直接使用SimpleESRecyclerAdapter代替RecyclerView.Adapter 
-   - 多种item，使用BindRecyclerAdapter代替RecyclerView.Adapter，使用BindRecyclerViewHolder作为ViewHolder
+   - 单种item，直接使用SimpleESRecyclerAdapter代替RecyclerView.Adapter  
+   - 多种item，使用BindRecyclerAdapter代替RecyclerView.Adapter，使用BindRecyclerViewHolder作为ViewHolder
  
 [BindViewHolder]:https://github.com/albert-lii/BindBinding/blob/master/easy-view/src/main/java/com/ly/easy/abslistview/BindViewHolder.java
-[SimpleESBaseAdpter]:https://github.com/albert-lii/BindBinding/blob/master/easy-view/src/main/java/com/ly/easy/abslistview/SimpleESBaseAdpter.java
+[SimpleBindBaseAdpter]:https://github.com/albert-lii/BindBinding/blob/master/easy-view/src/main/java/com/ly/easy/abslistview/SimpleESBaseAdpter.java
 [BindRecyclerAdapter]:https://github.com/albert-lii/BindBinding/blob/master/easy-view/src/main/java/com/ly/easy/recyclerview/BindRecyclerAdapter.java
 [BindRecyclerViewHolder]:https://github.com/albert-lii/BindBinding/blob/master/easy-view/src/main/java/com/ly/easy/recyclerview/BindRecyclerViewHolder.java
-[SimpleESRecyclerAdapter]:https://github.com/albert-lii/BindBinding/blob/master/easy-view/src/main/java/com/ly/easy/recyclerview/SimpleESRecyclerAdapter.java
+[SimpleBindRecyclerAdapter]:https://github.com/albert-lii/BindBinding/blob/master/easy-view/src/main/java/com/ly/easy/recyclerview/SimpleESRecyclerAdapter.java
 
 
