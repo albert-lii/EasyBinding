@@ -1,4 +1,4 @@
-# easy-view
+# bind-view
 DataBinding与ListView、GridView、RecyclerView的结合使用，使用更简单，代码更简洁。主要是针对它们的适配器做修改
 
 ## 主要类
