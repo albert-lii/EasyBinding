@@ -1,4 +1,4 @@
-# easy-screen
+# fit-screen
 使用DataBinding的@BindingAdapter功能实现屏幕精准适配，适用于任何分辨率的手机
 
 ## 目录
@@ -31,45 +31,59 @@
 | min | 以 Math.min( 宽,高 ) 作为参考标准，ratio=Math.min(widthRatio,heightRatio) |
 | default | 默认原始尺寸，不做改变，ratio=1 |
 
-
 | 属性 | 描述 |
 | ---- | ---- |
-| eb_base_width | view 的宽度参考标准 |
-| eb_base_height | view 的高度参考标准 |
-| eb_layout_minWidth | view 最小宽度 |
-| eb_base_minWidth | view 的宽度参考标准 |
-| eb_layout_minHeight | view 最小高度 |
-| eb_base_minHeight | view 最小高度的参考标准 |
-| eb_base_margin | view 外边距参考标准（优先级低于单独设置外边距）|
-| eb_base_marginLeft | view 左外边距参考标准 |
-| eb_base_marginTop | view 上外边距参考标准 |
-| eb_base_marginRight | view 右外边距参考标准 |
-| eb_base_marginBottom | view 下外边距参考标准 |
-| eb_base_padding | view 内边距参考标准 |
-| eb_base_paddingLeft | view 左内边距参考标准 |
-| eb_base_paddingTop | view 上内边距参考标准 |
-| eb_base_paddingRight | view 右内边距参考标准 |
-| eb_base_paddingBottom | view 下内边距参考标准 |
-| eb_base_textSize | textView 字体大小的参考标准 |
-| eb_text_maxWidth | textView 最大宽度 |
-| eb_base_textMaxWidth | textView 最大宽度的参考标准 |
-| eb_text_maxHeight | textView 最大高度 |
-| eb_base_textMaxHeight | textView 最大高度的参考标准 |
-| eb_grid_hspace | gridView 的 Item 之间的横向间距 |
-| eb_base_gridHspace | gridView 的 Item 之间横向间距的参考标准 |
-| eb_grid_vspace | gridView 的 Item 之间的纵向间距|
-| eb_base_gridVspace | gridView 的 Item 之间的纵向间距的参考标准 |
-| eb_grid_columnWidth | gridView 的列宽 |
-| eb_base_columnWidth | gridView 列宽的参考标准 |
+| fit_base_width | view 的宽度参考标准 |
+| fit_base_height | view 的高度参考标准 |
+| fit_layout_minWidth | view 最小宽度 |
+| fit_base_minWidth | view 的宽度参考标准 |
+| fit_layout_minHeight | view 最小高度 |
+| fit_base_minHeight | view 最小高度的参考标准 |
+| fit_base_margin | view 外边距参考标准（优先级低于单独设置外边距）|
+| fit_base_marginLeft | view 左外边距参考标准 |
+| fit_base_marginTop | view 上外边距参考标准 |
+| fit_base_marginRight | view 右外边距参考标准 |
+| fit_base_marginBottom | view 下外边距参考标准 |
+| fit_base_padding | view 内边距参考标准 |
+| fit_base_paddingLeft | view 左内边距参考标准 |
+| fit_base_paddingTop | view 上内边距参考标准 |
+| fit_base_paddingRight | view 右内边距参考标准 |
+| fit_base_paddingBottom | view 下内边距参考标准 |
+| fit_base_textSize | textView 字体大小的参考标准 |
+| fit_text_maxWidth | textView 最大宽度 |
+| fit_base_textMaxWidth | textView 最大宽度的参考标准 |
+| fit_text_maxHeight | textView 最大高度 |
+| fit_base_textMaxHeight | textView 最大高度的参考标准 |
+| fit_grid_hspace | gridView 的 Item 之间的横向间距 |
+| fit_base_gridHspace | gridView 的 Item 之间横向间距的参考标准 |
+| fit_grid_vspace | gridView 的 Item 之间的纵向间距|
+| fit_base_gridVspace | gridView 的 Item 之间的纵向间距的参考标准 |
+| fit_grid_columnWidth | gridView 的列宽 |
+| fit_base_columnWidth | gridView 列宽的参考标准 |  
+|------------------|----------------------------------------------|  
+| fit_layout_width | 设置 view 的宽 |
+| fit_layout_height | 设置 view 的高 |
+| fit_paddingLeft | 设置 view 的左内边距 |
+| fit_paddingTop | 设置 view 的上内边距 |
+| fit_paddingRight | 设置 view 的右内边距 |
+| fit_paddingBottom | 设置 view 的下内边距 |
+| fit_layout_marginLeft | 设置 view 的左外边距 |
+| fit_layout_marginTop | 设置 view 的上外边距 |
+| fit_layout_marginRight | 设置 view 的右外边距 |
+| fit_layout_marginBottom | 设置 view 的下外边距 |
+| fit_textSize | 设置 textView 的字体大小 |
+| fit_grid_horizontalSpacing | 设置 GridView 的 Item 之间的横向间距 |
+| fit_grid_verticalSpacing | 设置 GridView 的 Item 之间的纵向间距 |
+| fit_grid_columnWidth | 设置 GridView 的列宽 |
 
 ### 注意：
-- eb_layout_minWidth、eb_layout_minHeight、eb_text_maxWidth、eb_text_maxHeight、eb_grid_hspace、eb_grid_vspace、eb_grid_columnWidth这几个属性，在sdk>=16时,可以使用他们的原生属性即android:minWidth=""、android:maxHeight=""...，如果设置了这些自定义属性，则以自定义属性为准；当sdk<16时，使用自定义属性
+- fit_layout_minWidth、fit_layout_minHeight、fit_text_maxWidth、fit_text_maxHeight、fit_grid_hspace、fit_grid_vspace、fit_grid_columnWidth这几个属性，在sdk>=16时,可以使用他们的原生属性即android:minWidth=""、android:maxHeight=""...，如果设置了这些自定义属性，则以自定义属性为准；当sdk<16时，使用自定义属性
 
 ## 使用方法
 1. 在Application中（或者Activity中）创建设计稿
 
 ```Java
-  EasyScreen.createDesign(context, height, width);
+  FitScreen .createDesign(context, height, width);
 ```
 
 2. 对于要适配的属性，在xml种添加参考标准（注：所有要适配的属性，使用px作为单位，直接抄下设计稿上的px尺寸即可）
@@ -84,14 +98,14 @@
       android:text="200px"
       android:textColor="#ffffff"
       android:textSize="20sp"
-      app:eb_base_height='@{"height"}'
-      app:eb_base_textSize='@{"width"}'
-      app:eb_base_width='@{"width"}' />
+      app:fit_base_height='@{"height"}'
+      app:fit_base_textSize='@{"width"}'
+      app:fit_base_width='@{"width"}' />
       
   在上述TextView中，需要适配TextView的高度、宽度以及字体大小，所以在TextView添加自定义属性  
-      app:eb_base_height='@{"height"}'  ===> 以屏高作为参考标准
-      app:eb_base_width='@{"width"}'    ===> 以屏宽作为参考标准
-      app:eb_base_textSize='@{"width"}' ===> 以屏宽作为参考标准
+      app:fit_base_height='@{"height"}'  ===> 以屏高作为参考标准
+      app:fit_base_width='@{"width"}'    ===> 以屏宽作为参考标准
+      app:fit_base_textSize='@{"width"}' ===> 以屏宽作为参考标准
 ```
 ## 预览问题
 选择与创建的设计稿尺寸一致或者相近的模拟器预览即可（因为有的公司给的是IOS设计稿，没有安卓版，只能选相近的，这种情况下预览会有些偏差，不必在意，真实显示绝对与设计稿一致）
