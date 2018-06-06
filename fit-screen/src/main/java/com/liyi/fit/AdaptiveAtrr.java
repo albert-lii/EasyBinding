@@ -342,38 +342,5 @@ public class AdaptiveAtrr {
     public static void setTextViewSizeByPX(TextView textView, int textSize) {
         textView.setTextSize(textSize);
     }
-
-    /**
-     * 设置 GridView 的 Item 之间的横向间距
-     *
-     * @param gridView
-     * @param space    横向间距
-     */
-    @BindingAdapter("fit_grid_horizontalSpacing")
-    public static void setGridViewHSpaceByPX(GridView gridView, int space) {
-        gridView.setHorizontalSpacing(space);
-    }
-
-    /**
-     * 设置 GridView 的 Item 之间的纵向间距
-     *
-     * @param gridView
-     * @param space    纵向间距
-     */
-    @BindingAdapter("fit_grid_verticalSpacing")
-    public static void setGridViewVSpaceByPX(GridView gridView, int space) {
-        gridView.setVerticalSpacing(space);
-    }
-
-    /**
-     * 设置 GridView 的列宽
-     *
-     * @param gridView
-     * @param columnWidth 列宽
-     */
-    @BindingAdapter("fit_grid_columnWidth")
-    public static void setGridColumnWidthByPX(GridView gridView, int columnWidth) {
-        gridView.setColumnWidth(columnWidth);
-    }
 }
 
