@@ -60,19 +60,6 @@
 | fit_base_gridVspace | gridView 的 Item 之间的纵向间距的参考标准 |
 | fit_grid_columnWidth | gridView 的列宽 |
 | fit_base_columnWidth | gridView 列宽的参考标准 |  
-|------------------|----------------------------------------------|  
-|------------------|以下部分是针对需要动态计算出尺寸的情况，不需要与上述属性联用| 
-| fit_layout_width | 设置 view 的宽 |
-| fit_layout_height | 设置 view 的高 |
-| fit_paddingLeft | 设置 view 的左内边距 |
-| fit_paddingTop | 设置 view 的上内边距 |
-| fit_paddingRight | 设置 view 的右内边距 |
-| fit_paddingBottom | 设置 view 的下内边距 |
-| fit_layout_marginLeft | 设置 view 的左外边距 |
-| fit_layout_marginTop | 设置 view 的上外边距 |
-| fit_layout_marginRight | 设置 view 的右外边距 |
-| fit_layout_marginBottom | 设置 view 的下外边距 |
-| fit_textSize | 设置 textView 的字体大小 |
 
 ### 注意：
 - fit_layout_minWidth、fit_layout_minHeight、fit_text_maxWidth、fit_text_maxHeight、fit_grid_hspace、fit_grid_vspace、fit_grid_columnWidth这几个属性，在sdk>=16时,可以使用他们的原生属性即android:minWidth=""、android:maxHeight=""...，如果设置了这些自定义属性，则以自定义属性为准；当sdk<16时，使用自定义属性
