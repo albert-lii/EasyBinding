@@ -14,8 +14,8 @@ EasyBinding是基于Android Studio的DataBinding实现的库，主要包含`fit-
 - [fit-screen（屏幕适配）][fit-screen]
 - [bind-view（与ListView、GridView、RecyclerView的结合使用）][bind-view]
 
-## 使用方法
-- Step 1：  
+## 使用方法（添加依赖不是最优方式，推荐直接将文件拷贝到项目中，方便拓展）
+- Step 1：  
 ```Java
   在项目工程的build.gradle中添加以下代码
   // 注：如果添加依赖成功，则此句不必添加，此句作用仅为当项目在被审核时，紧急需要使用时添加
