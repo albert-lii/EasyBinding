@@ -42,10 +42,10 @@
             android:layout_height="200px"
             android:layout_gravity="center_horizontal"
             android:background="#365"
-            android:gravity="center"
             android:text="200px"
-            android:textColor="#ffffff"
             android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
             app:fit_base_height='@{"height"}'
             app:fit_base_textSize='@{"width"}'
             app:fit_base_width='@{"width"}' />
