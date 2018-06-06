@@ -61,6 +61,7 @@
 | fit_grid_columnWidth | gridView 的列宽 |
 | fit_base_columnWidth | gridView 列宽的参考标准 |  
 |------------------|----------------------------------------------|  
+|------------------|以下部分是针对需要动态计算出尺寸的情况，不需要与上述属性联用| 
 | fit_layout_width | 设置 view 的宽 |
 | fit_layout_height | 设置 view 的高 |
 | fit_paddingLeft | 设置 view 的左内边距 |
