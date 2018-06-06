@@ -73,9 +73,6 @@
 | fit_layout_marginRight | 设置 view 的右外边距 |
 | fit_layout_marginBottom | 设置 view 的下外边距 |
 | fit_textSize | 设置 textView 的字体大小 |
-| fit_grid_horizontalSpacing | 设置 GridView 的 Item 之间的横向间距 |
-| fit_grid_verticalSpacing | 设置 GridView 的 Item 之间的纵向间距 |
-| fit_grid_columnWidth | 设置 GridView 的列宽 |
 
 ### 注意：
 - fit_layout_minWidth、fit_layout_minHeight、fit_text_maxWidth、fit_text_maxHeight、fit_grid_hspace、fit_grid_vspace、fit_grid_columnWidth这几个属性，在sdk>=16时,可以使用他们的原生属性即android:minWidth=""、android:maxHeight=""...，如果设置了这些自定义属性，则以自定义属性为准；当sdk<16时，使用自定义属性
