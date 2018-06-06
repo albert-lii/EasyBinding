@@ -86,7 +86,7 @@
   FitScreen .createDesign(context, height, width);
 ```
 
-2. 对于要适配的属性，在xml种添加参考标准（注：所有要适配的属性，使用px作为单位，直接抄下设计稿上的px尺寸即可）
+2. 对于要适配的属性，在xml种添加参考标准即可（注：所有要适配的属性，使用px作为单位，直接抄下设计稿上的px尺寸即可）
 例：
 ```Java
  <TextView
@@ -103,9 +103,9 @@
       app:fit_base_width='@{"width"}' />
       
   在上述TextView中，需要适配TextView的高度、宽度以及字体大小，所以在TextView添加自定义属性  
-      app:fit_base_height='@{"height"}'  ===> 以屏高作为参考标准
-      app:fit_base_width='@{"width"}'    ===> 以屏宽作为参考标准
-      app:fit_base_textSize='@{"width"}' ===> 以屏宽作为参考标准
+      app:fit_base_height='@{"height"}'  ===> 以屏高作为参考标准，适配 view 的高度
+      app:fit_base_width='@{"width"}'    ===> 以屏宽作为参考标准，适配 view 的宽度
+      app:fit_base_textSize='@{"width"}' ===> 以屏宽作为参考标准，适配字体的大小
 ```
 ## 预览问题
 选择与创建的设计稿尺寸一致或者相近的模拟器预览即可（因为有的公司给的是IOS设计稿，没有安卓版，只能选相近的，这种情况下预览会有些偏差，不必在意，真实显示绝对与设计稿一致）
