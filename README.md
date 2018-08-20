@@ -50,7 +50,7 @@ dependencies {
 - xml布局文件要遵守DataBinding的规则
 
 ## 赞赏
-如果你感觉 `EasyBinding` 帮助到了你，可以点右上角 "Star" 支持一下 谢谢！:blush:
+如果你感觉 `EasyBinding` 帮助到了你，可以点右上角 "Star" 支持一下哦！:blush:
 
 ## LICENSE
 Copyright 2018 liyi
